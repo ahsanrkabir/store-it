@@ -38,7 +38,7 @@ export const createAdminClient = async () => {
     get databases() {
       return new Databases(client);
     },
-    get storgae() {
+    get storage() {
       return new Storage(client);
     },
     get avatars() {
